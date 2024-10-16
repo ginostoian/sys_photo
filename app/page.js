@@ -20,8 +20,6 @@ export default function Page() {
       <main>
         <Hero />
         <ClientLogos />
-        <FeaturesGrid />
-        <FeaturesAccordion />
         <Pricing />
         <FAQ />
         <CTA />

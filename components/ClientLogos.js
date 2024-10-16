@@ -8,6 +8,7 @@ const ClientLogos = () => {
     "/images/logo/spinal-care-logo.webp",
     "/images/logo/bizz-club-logo.webp",
     "/images/logo/mediclinic-logo.webp",
+    "/images/logo/fsc-logo.webp",
   ];
 
   return (
