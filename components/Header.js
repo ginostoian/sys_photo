@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/logo-var-1.jpeg";
 import config from "@/config";
 
@@ -14,16 +13,23 @@ const links = [
     label: "Portofoliu",
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
+    href: "/preturi",
+    label: "Preturi",
   },
   {
-    href: "/#faq",
-    label: "FAQ",
+    href: "/servicii",
+    label: "Servicii",
+  },
+  {
+    href: "/despre-noi",
+    label: "Despre noi",
   },
 ];
 
-const cta = <ButtonSignin extraStyle="btn-primary rounded-xl" />;
+// const cta = <ButtonSignin extraStyle="btn-primary rounded-xl" />;
+const cta = (
+  <button className="text-xl btn btn-primary rounded-xl">Suna acum</button>
+);
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
 // The header is responsive, and on mobile, the links are hidden behind a burger button.
@@ -52,13 +58,13 @@ const Header = () => {
             <Image
               src={logo}
               alt={`${config.appName} logo`}
-              className="w-20"
+              className="w-16"
               placeholder="blur"
               priority={true}
               width={100}
               height={100}
             />
-            <span className="font-extrabold text-lg">{config.appName}</span>
+            <span className="font-extrabold text-xl">{config.appName}</span>
           </Link>
         </div>
         {/* Burger button to open menu on mobile */}
@@ -92,7 +98,7 @@ const Header = () => {
             <Link
               href={link.href}
               key={link.href}
-              className="link link-hover"
+              className="link link-hover text-lg"
               title={link.label}
             >
               {link.label}
