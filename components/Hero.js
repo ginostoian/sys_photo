@@ -7,9 +7,9 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   const images = [
-    "/images/wedding1.jpg",
-    "/images/wedding2.jpg",
-    "/images/wedding3.jpg",
+    "/images/wedding1.webp",
+    "/images/wedding2.webp",
+    "/images/wedding3.webp",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
