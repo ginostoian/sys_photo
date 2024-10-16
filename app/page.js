@@ -7,7 +7,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
-
+import ServiceList from "@/components/ServiceList";
 export default function Page() {
   return (
     <>
@@ -17,6 +17,7 @@ export default function Page() {
       <main>
         <Hero />
         <ClientLogos />
+        <ServiceList />
         <Pricing />
         <FAQ />
         <CTA />
