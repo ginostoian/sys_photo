@@ -15,7 +15,7 @@ const ClientLogos = () => {
         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
           Clienții noștri
         </h2>
-        <div className="flex items-center justify-between flex-wrap gap-8">
+        <div className="flex items-center justify-center md:justify-between flex-wrap gap-8">
           {clientLogos.map((logo, index) => (
             <div
               key={index}
