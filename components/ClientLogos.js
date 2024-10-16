@@ -7,6 +7,7 @@ const ClientLogos = () => {
     "/images/logo/regina-maria-logo.webp",
     "/images/logo/spinal-care-logo.webp",
     "/images/logo/bizz-club-logo.webp",
+    "/images/logo/mediclinic-logo.webp",
   ];
 
   return (
