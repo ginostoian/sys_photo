@@ -48,7 +48,9 @@ const Hero = () => {
           aniversarile, botezele si toate celelalte momente care merita pastrate
           cum ar fi maternitatea, craciunul etc.
         </p>
-        <button className="btn btn-primary btn-wide">Hai sa vorbim</button>
+        <button className="btn btn-primary btn-wide rounded-xl">
+          Hai sa vorbim
+        </button>
 
         <TestimonialsAvatars priority={true} />
       </div>
