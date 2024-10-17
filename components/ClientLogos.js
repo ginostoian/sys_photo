@@ -7,14 +7,14 @@ const ClientLogos = () => {
     "/images/logo/regina-maria-logo.webp",
     "/images/logo/spinal-care-logo.webp",
     "/images/logo/bizz-club-logo.webp",
-    "/images/logo/mediclinic-logo.webp",
+    "/images/logo/teilor-logo.webp",
     "/images/logo/fsc-logo.webp",
   ];
 
   return (
     <section className="w-full py-10 bg-white">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">
+        <h2 className="text-4xl font-semibold text-center text-gray-800 mb-6">
           Clienții noștri
         </h2>
         <div className="flex items-center justify-center md:justify-between flex-wrap gap-8">

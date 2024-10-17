@@ -20,11 +20,10 @@ export default function Page() {
       <main>
         <Hero />
         <ClientLogos />
-        <Service />
-        {/* <ServiceList /> */}
-        <Pricing />
+        <ServiceList />
+        {/* <Pricing /> */}
         <FAQ />
-        <CTA />
+        {/* <CTA /> */}
       </main>
       <Footer />
     </>
