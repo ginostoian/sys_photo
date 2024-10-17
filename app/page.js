@@ -8,6 +8,9 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
 import ServiceList from "@/components/ServiceList";
+import PhotoMasonry from "@/components/PhotoMasonry";
+import Service from "@/components/Service";
+
 export default function Page() {
   return (
     <>
@@ -17,7 +20,8 @@ export default function Page() {
       <main>
         <Hero />
         <ClientLogos />
-        <ServiceList />
+        <Service />
+        {/* <ServiceList /> */}
         <Pricing />
         <FAQ />
         <CTA />
