@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const PhotoMasonry = () => {
+const PhotoMasonry = ({ photos }) => {
   return (
     <div>
       <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -13,7 +13,7 @@ const PhotoMasonry = () => {
               <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                 <Image
                   class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                  src="/images/wedding2.webp"
+                  src={photos[0]}
                   alt="Masonry Cards Image"
                   width={500}
                   height={500}
@@ -30,7 +30,7 @@ const PhotoMasonry = () => {
               <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                 <Image
                   class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                  src="/images/wedding1.webp"
+                  src={photos[1]}
                   alt="Masonry Cards Image"
                   width={500}
                   height={500}
@@ -47,7 +47,7 @@ const PhotoMasonry = () => {
               <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                 <Image
                   class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                  src="/images/wedding3.webp"
+                  src={photos[2]}
                   alt="Masonry Cards Image"
                   width={500}
                   height={500}
@@ -64,7 +64,7 @@ const PhotoMasonry = () => {
               <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                 <Image
                   class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                  src="/images/wedding2.webp"
+                  src={photos[3]}
                   alt="Masonry Cards Image"
                   width={500}
                   height={500}
@@ -81,7 +81,7 @@ const PhotoMasonry = () => {
               <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                 <Image
                   class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                  src="/images/wedding1.webp"
+                  src={photos[4]}
                   alt="Masonry Cards Image"
                   width={500}
                   height={500}
