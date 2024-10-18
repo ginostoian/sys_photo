@@ -11,6 +11,7 @@ import ServiceList from "@/components/ServiceList";
 import PhotoMasonry from "@/components/PhotoMasonry";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonials1";
+import AboutUs from "@/components/AboutUs";
 
 export default function Page() {
   return (
@@ -23,6 +24,7 @@ export default function Page() {
         <ClientLogos />
         <ServiceList />
         <Testimonial />
+        <AboutUs />
         {/* <Pricing /> */}
         <FAQ />
         {/* <CTA /> */}
