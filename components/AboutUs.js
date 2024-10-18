@@ -30,7 +30,7 @@ const AboutUs = () => {
             </p>
             <div className="mb-10 text-center lg:text-left md:mb-16 lg:mb-20">
               <button className="text-xl btn btn-primary btn-wide rounded-xl">
-                Hai sa vorbim
+                Citeste mai mult
               </button>
             </div>
             <div className="flex flex-col items-center">
