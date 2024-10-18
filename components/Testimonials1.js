@@ -4,7 +4,7 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <section
-      className="relative isolate overflow-hidden bg-base-100 px-8 py-24 sm:py-32"
+      className="max-w-[95%] mx-auto relative isolate overflow-hidden bg-base-100 px-8 py-24 sm:py-32"
       id="testimonials"
     >
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.base-300),theme(colors.base-100))] opacity-20" />
@@ -19,36 +19,36 @@ const Testimonial = () => {
                 className="rounded-lg max-w-[320px] md:max-w-[280px] lg:max-w-[320px] object-center border-2 border-white/10 shadow-md"
                 // Ideally, load from a statically generated image for better SEO performance (import userImage from "@/public/userImage.png")
                 // If you're using a static image, add placeholder="blur"
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2488&q=80"
+                src="/images/wedding-testimonial.webp"
                 alt="A testimonial from a happy customer"
               />
             </div>
 
             <div>
-              <blockquote className="text-xl font-medium leading-8 text-base-content sm:text-2xl sm:leading-10">
-                I got your boilerplate and having the payments setup with Stripe
-                + user auth is a blessing. This will save me like a week of work
-                for each new side project I spin up. I appreciate that is well
-                documented, as well. 100% worth it!
+              <blockquote className="text-base font-medium leading-8 text-base-content sm:text-2xl sm:leading-10">
+                Colaborarea cu SyS Photo a fost absolut fantastică! A reușit să
+                surprindă fiecare moment important al nunții noastre într-un mod
+                natural și emoționant. Ne-a făcut să ne simțim confortabil în
+                fața camerei și rezultatele au fost peste așteptări. Recomandăm
+                cu căldură serviciile lui pentru oricine își dorește amintiri de
+                neprețuit de la ziua cea mare!
               </blockquote>
               <figcaption className="mt-10 flex items-center justify-start gap-5">
-                <div className="text-base">
+                <div className="text-lg">
                   <div className="font-semibold text-base-content mb-0.5">
-                    Amanda Lou
+                    Ilinca si Lorin
                   </div>
-                  <div className="text-base-content/60">
-                    Indie Maker &amp; Developer
-                  </div>
+                  <div className="text-base-content/60">Miri | Parklake</div>
                 </div>
 
-                <Image
+                {/* <Image
                   width={150}
                   height={50}
                   className="w-20 md:w-24"
                   // Ideally, load from a statically generated image for better SEO performance (import userImage from "@/public/userImage.png")
                   src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png"
                   alt="Reddit logo"
-                />
+                /> */}
               </figcaption>
             </div>
           </div>
