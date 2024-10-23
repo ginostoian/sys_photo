@@ -12,6 +12,7 @@ import PhotoMasonry from "@/components/PhotoMasonry";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonials1";
 import AboutUs from "@/components/AboutUs";
+import Features from "@/components/Features";
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
         <ClientLogos />
         <ServiceList />
         <Testimonial />
+        <Features />
         <AboutUs />
         {/* <Pricing /> */}
         <FAQ />
