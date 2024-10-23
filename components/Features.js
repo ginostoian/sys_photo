@@ -8,7 +8,7 @@ const Features = () => {
       <div className="aspect-w-16 aspect-h-7 lg:w-[40%]">
         <Image
           className="w-full object-cover max-h-[700px] rounded-xl"
-          src="/images/wedding1.webp"
+          src="/images/studio.webp"
           alt="Features Image"
           width={500}
           height={500}
@@ -73,7 +73,7 @@ const Features = () => {
               </svg>
               <div className="grow">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  Creative minds
+                  Minti creative
                 </h3>
                 <p className="mt-1 text-gray-600">
                   We choose our teams carefully. Our people are the secret to
@@ -105,8 +105,8 @@ const Features = () => {
                   Simple and affordable
                 </h3>
                 <p className="mt-1 text-gray-600">
-                  From boarding passes to movie tickets, there's pretty much
-                  nothing you can't store with Preline.
+                  From boarding passes to movie tickets, there is pretty much
+                  nothing you cannot store with Preline.
                 </p>
               </div>
             </div>
