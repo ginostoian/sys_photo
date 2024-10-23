@@ -5,7 +5,7 @@ const Features = () => {
   return (
     // <!-- Features -->
     <div className="max-w-[95%] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto lg:flex lg:gap-10">
-      <div className="aspect-w-16 aspect-h-7 lg:w-[40%]">
+      <div className="aspect-w-16 aspect-h-7 lg:w-[40%] my-auto">
         <Image
           className="w-full object-cover max-h-[700px] rounded-xl"
           src="/images/studio.webp"
