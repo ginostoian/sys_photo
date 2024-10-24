@@ -10,10 +10,10 @@ const HowWeWork = () => {
         <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
           {/* <!-- Title --> */}
           <div className="max-w-3xl mb-10 lg:mb-14">
-            <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
+            <h2 className="text-white font-semibold text-4xl md:text-6xl md:leading-tight">
               Our approach
             </h2>
-            <p className="mt-1 text-neutral-400">
+            <p className="mt-1 text-xl text-neutral-400">
               This profound insight guides our comprehensive strategy — from
               meticulous research and strategic planning to the seamless
               execution of brand development and website or product deployment.
@@ -38,7 +38,7 @@ const HowWeWork = () => {
             <div>
               {/* <!-- Heading --> */}
               <div className="mb-4">
-                <h3 className="text-[#ff0] text-xs font-medium uppercase">
+                <h3 className="text-[#ff0] text-base font-medium uppercase">
                   Steps
                 </h3>
               </div>
@@ -49,7 +49,7 @@ const HowWeWork = () => {
                 {/* <!-- Icon --> */}
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
-                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-base uppercase rounded-full">
                       1
                     </span>
                   </div>
@@ -58,9 +58,9 @@ const HowWeWork = () => {
 
                 {/* <!-- Right Content --> */}
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm lg:text-base text-neutral-400">
+                  <p className="text-base lg:text-xl text-neutral-400">
                     <span className="text-white">
-                      Market Research and Analysis:
+                      Market Research and Analysis:{" "}
                     </span>
                     Identify your target audience and understand their needs,
                     preferences, and behaviors.
@@ -75,7 +75,7 @@ const HowWeWork = () => {
                 {/* <!-- Icon --> */}
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
-                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-base uppercase rounded-full">
                       2
                     </span>
                   </div>
@@ -84,9 +84,9 @@ const HowWeWork = () => {
 
                 {/* <!-- Right Content --> */}
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm lg:text-base text-neutral-400">
+                  <p className="text-base lg:text-xl text-neutral-400">
                     <span className="text-white">
-                      Product Development and Testing:
+                      Product Development and Testing:{" "}
                     </span>
                     Develop digital products or services that address the needs
                     and preferences of your target audience.
@@ -101,7 +101,7 @@ const HowWeWork = () => {
                 {/* <!-- Icon --> */}
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
-                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-base uppercase rounded-full">
                       3
                     </span>
                   </div>
@@ -110,8 +110,10 @@ const HowWeWork = () => {
 
                 {/* <!-- Right Content --> */}
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm md:text-base text-neutral-400">
-                    <span className="text-white">Marketing and Promotion:</span>
+                  <p className="text-base lg:text-xl text-neutral-400">
+                    <span className="text-white">
+                      Marketing and Promotion:{" "}
+                    </span>
                     Develop a comprehensive marketing strategy to promote your
                     digital products or services.
                   </p>
@@ -125,7 +127,7 @@ const HowWeWork = () => {
                 {/* <!-- Icon --> */}
                 <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                   <div className="relative z-10 size-8 flex justify-center items-center">
-                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                    <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-base uppercase rounded-full">
                       4
                     </span>
                   </div>
@@ -134,8 +136,10 @@ const HowWeWork = () => {
 
                 {/* <!-- Right Content --> */}
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm md:text-base text-neutral-400">
-                    <span className="text-white">Launch and Optimization:</span>
+                  <p className="text-base lg:text-xl text-neutral-400">
+                    <span className="text-white">
+                      Launch and Optimization:{" "}
+                    </span>
                     Launch your digital products or services to the market,
                     closely monitoring their performance and user feedback.
                   </p>
@@ -145,7 +149,7 @@ const HowWeWork = () => {
               {/* <!-- End Item --> */}
 
               <a
-                className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-none"
+                className="group inline-flex items-center gap-x-2 py-2 px-8 bg-[#ff0] font-medium text-xl text-neutral-800 rounded-full focus:outline-none"
                 href="#"
               >
                 <svg
