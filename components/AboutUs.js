@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <section className="bg-base-200 py-10">
-      <div className="max-w-[95%] mx-auto relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
+      <div className="max-w-[85%] mx-auto relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
         <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
           <div className="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
             <h2 className="mb-5 text-left text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none">

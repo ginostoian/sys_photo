@@ -22,7 +22,7 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [images.length]);
   return (
-    <section className="max-w-[95%] mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">
+    <section className="max-w-[85%] mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">
       <div className="w-full flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
         <h1 className="font-extrabold text-6xl lg:text-8xl tracking-tight md:-mb-4">
           Sedinte foto profesionale, cu suflet.

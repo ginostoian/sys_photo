@@ -12,7 +12,7 @@ const Service = ({
 }) => {
   return (
     <section className={`${background ? "bg-base-200" : ""}`}>
-      <div className="max-w-[95%] mx-auto flex flex-col lg:flex-row gap-4 order-1 py-10">
+      <div className="max-w-[85%] mx-auto flex flex-col lg:flex-row gap-4 order-1 py-10">
         <div className="w-full flex flex-col gap-6 justify-center lg:w-1/2 text-center lg:text-left">
           <h2 className="text-4xl md:text-6xl font-bold">{title}</h2>
           <p className="text-lg">{subtitle}</p>
