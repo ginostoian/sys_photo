@@ -12,12 +12,12 @@ const ClientLogos = () => {
   ];
 
   return (
-    <section className="w-full py-10 bg-white">
+    <section className="w-full py-10 bg-base">
       <div className="container mx-auto">
         <h2 className="text-4xl font-semibold text-center text-gray-800 mb-6">
           Clienții noștri
         </h2>
-        <div className="flex items-center justify-center md:justify-between flex-wrap gap-8">
+        <div className="flex items-center justify-center md:justify-between flex-wrap gap-[28px] sm:gap-8">
           {clientLogos.map((logo, index) => (
             <div
               key={index}

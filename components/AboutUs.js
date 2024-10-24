@@ -11,24 +11,24 @@ const AboutUs = () => {
               Cine este in spatele aparatului
               {/* <br className="hidden md:block" /> */}
             </h2>
-            <p className="mb-5 text-center text-base text-gray-700 md:text-lg lg:text-left">
+            <p className="mb-5 text-base text-gray-700 md:text-lg lg:text-left">
               Suntem Iulia si Alina, două surori care iubesc
               fotografia,poveștile frumoase spuse băieților noștri și iubim
               poveștile vizuale, care se transformă în amintiri.
             </p>
-            <p className="mb-5 text-base text-gray-700 text-center md:text-lg lg:text-left">
+            <p className="mb-5 text-base text-gray-700  md:text-lg lg:text-left">
               Am ales să punem împreună pasiunile noastre, pentru ca tu să te
               bucuri de cele mai frumoase amintiri și să redescoperi fericirea
               din spatele zâmbetului în fiecare imagine.
             </p>
-            <p className="mb-5 text-center text-base text-gray-700 md:text-lg lg:text-left">
+            <p className="mb-5  text-base text-gray-700 md:text-lg lg:text-left">
               Fiecare poveste este unică în felul ei, iar noi facem tot
               posibilul să te cunoaștem cât mai bine înainte de eveniment. Așa
               ne asigurăm că vom reuși să surprindem exact ceea ce tu îți
               dorești, iar rezultatul final să fie peste așteptări. De fiecare
               dată!
             </p>
-            <div className="mb-10 text-center lg:text-left md:mb-16 lg:mb-20">
+            <div className="mb-10 lg:text-left md:mb-16 lg:mb-20">
               <button className="text-xl btn btn-primary btn-wide rounded-xl">
                 Citeste mai mult
               </button>
