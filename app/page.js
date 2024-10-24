@@ -14,6 +14,7 @@ import Testimonial from "@/components/Testimonials1";
 import AboutUs from "@/components/AboutUs";
 import Features from "@/components/Features";
 import HowWeWork from "@/components/HowWeWork";
+import Testimonials11 from "@/components/Testimonials11";
 
 export default function Page() {
   return (
@@ -29,6 +30,7 @@ export default function Page() {
         <Features />
         <HowWeWork />
         <AboutUs />
+        <Testimonials11 />
         {/* <Pricing /> */}
         <FAQ />
         {/* <CTA /> */}

@@ -53,11 +53,11 @@ const list = [
     // REQUIRED
     name: "Marc Lou",
     // REQUIRED
-    text: "Really easy to use. The tutorials are really useful and explains how everything works. Hope to ship my next project really fast!",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. ",
     // REQUIRED — use refTypes.other if you don't want to display an icon
     type: refTypes.twitter,
     // Optional, link to the person's testimonial. It's more trustable
-    link: "https://twitter.com/marc_louvion",
+    link: "https://twitter.com/",
     // Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
     img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg",
     // You can display video testimonials to build more trust. Just swap the type above to "video" and add at least the video source below
@@ -66,61 +66,56 @@ const list = [
   {
     username: "the_mcnaveen",
     name: "Naveen",
-    text: "Setting up everything from the ground up is a really hard, and time consuming process. What you pay for will save your time for sure.",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.twitter,
-    link: "https://twitter.com/the_mcnaveen",
+    link: "https://twitter.com/",
   },
   {
     username: "wahab",
     name: "Wahab Shaikh",
-    text: "Easily saves 15+ hrs for me setting up trivial stuff. Now, I can directly focus on shipping features rather than hours of setting up the same technologies from scratch. Feels like a super power! :D",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.productHunt,
     link: "https://www.producthunt.com/products/shipfast-2/reviews?review=667971",
   },
   {
     name: "Sean",
-    text: "Just purchased and cloned and *holy shit!* I realllyyy like what I'm seeing here!",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.other,
   },
   {
     username: "krishna",
     name: "Krishna Kant",
-    text: "Finally a good boilerplate for Nextjs, now I dont have to cry about it comparing with laravel ecosystem.",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.productHunt,
     link: "https://www.producthunt.com/posts/shipfast-2?comment=2707061",
   },
   {
     username: "imgyf",
     name: "Yifan Goh",
-    text: "It's a game changer  🚀 Comes with easy to follow tutorial, and saves you a ton of time. What's not to love?",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.twitter,
     link: "https://twitter.com/imgyf/status/1697549891080532236?s=20",
   },
   {
     name: "Yazdun",
-    text: "Yo Marc, I got the boilerplate, it's fantastic man you just save me 10 hours on each project",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.other,
   },
   {
-    name: "Marc Lou",
-    text: "The tool is exactly what I didn't even know I needed.",
-    videoPoster: "https://d1wkquwg5s1b04.cloudfront.net/demo/marcPoster.jpg",
-    videoSrc: "https://d1wkquwg5s1b04.cloudfront.net/demo/marcVideo.mp4",
-    videoHeight: 250,
-    videoWidth: 500,
-    videoType: "video/mp4",
-    type: refTypes.video,
+    name: "Yazdun",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
+    type: refTypes.other,
   },
   {
     username: "zawwadx",
     name: "Zawwad Ul Sami",
-    text: "It's an amazing minimalist, lightweight boilerplate with well-organized code. It has almost all the core features you would want in a SaaS boilerplate. As a new team last year it actually took us months to build a similar set of features at a stable level.",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.twitter,
   },
   {
     username: "dan",
     name: "Dan Mindru",
-    text: "Probably one of the most powerful things you can 'npm install' that I've seen",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.productHunt,
     link: "https://www.producthunt.com/posts/shipfast-2?comment=2706763",
   },
@@ -128,7 +123,7 @@ const list = [
   {
     username: "VicPivots",
     name: "Victor Abeledo",
-    text: "Marc, I got your boilerplate and having the payments setup with Stripe + user auth is a blessing. This will save me like a week of work for each new side project I spin up. I appreciate that is well documented, as well. 100% worth it 🚀🚀🚀",
+    text: "Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you.",
     type: refTypes.twitter,
     link: "https://twitter.com/VicPivots/status/1697352442986250413?s=20",
   },
@@ -146,9 +141,9 @@ const Testimonial = ({ i }) => {
 
   return (
     <li key={i}>
-      <figure className="relative h-full p-6 bg-base-100 rounded-lg">
+      <figure className="relative h-full p-6 bg-base-100 rounded-xl">
         <blockquote className="relative">
-          <p className="text-sm text-base-content/80">{testimonial.text}</p>
+          <p className="text-base text-base-content/80">{testimonial.text}</p>
         </blockquote>
         <figcaption className="relative flex items-center justify-start gap-4 pt-4 mt-4 border-t border-base-content/5">
           <div className="overflow-hidden rounded-full bg-base-300 shrink-0">
@@ -168,11 +163,11 @@ const Testimonial = ({ i }) => {
           </div>
           <div className="w-full flex items-end justify-between gap-2">
             <div>
-              <div className="text-sm font-medium text-base-content">
+              <div className="text-base font-medium text-base-content">
                 {testimonial.name}
               </div>
               {testimonial.username && (
-                <div className="mt-0.5 text-sm text-base-content/80">
+                <div className="mt-0.5 text-base text-base-content/80">
                   @{testimonial.username}
                 </div>
               )}
@@ -333,15 +328,18 @@ const VideoTestimonial = ({ i }) => {
 
 const Testimonials11 = () => {
   return (
-    <section className="bg-base-200" id="testimonials">
+    <section
+      className="bg-base-200"
+      id="testimonials"
+    >
       <div className="py-24 px-8 max-w-7xl mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <div className="mb-8">
             <h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
-              212 makers are already shipping faster!
+              250+ clienti fericiti!
             </h2>
           </div>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-base-content/80">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-base-content/80">
             Don&apos;t take our word for it. Here&apos;s what they have to say
             about {config.appName}.
           </p>
@@ -352,9 +350,15 @@ const Testimonials11 = () => {
           className="grid max-w-2xl grid-cols-1 gap-6 mx-auto sm:gap-8 md:grid-cols-2 lg:max-w-none lg:grid-cols-4"
         >
           <li>
-            <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+            <ul
+              role="list"
+              className="flex flex-col gap-y-6 sm:gap-y-8"
+            >
               {[...Array(3)].map((e, i) => (
-                <Testimonial key={i} i={i} />
+                <Testimonial
+                  key={i}
+                  i={i}
+                />
               ))}
             </ul>
           </li>
@@ -401,21 +405,39 @@ const Testimonials11 = () => {
                 </figure>
               </li>
             </ul>
-            <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+            <ul
+              role="list"
+              className="flex flex-col gap-y-6 sm:gap-y-8"
+            >
               {[...Array(2)].map((e, i) => (
-                <Testimonial key={i} i={i + 3} />
+                <Testimonial
+                  key={i}
+                  i={i + 3}
+                />
               ))}
             </ul>
-            <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+            <ul
+              role="list"
+              className="flex flex-col gap-y-6 sm:gap-y-8"
+            >
               {[...Array(2)].map((e, i) => (
-                <Testimonial key={i} i={i + 5} />
+                <Testimonial
+                  key={i}
+                  i={i + 5}
+                />
               ))}
             </ul>
           </li>
           <li>
-            <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
+            <ul
+              role="list"
+              className="flex flex-col gap-y-6 sm:gap-y-8"
+            >
               {[...Array(3)].map((e, i) => (
-                <Testimonial key={i} i={i + 7} />
+                <Testimonial
+                  key={i}
+                  i={i + 7}
+                />
               ))}
             </ul>
           </li>
