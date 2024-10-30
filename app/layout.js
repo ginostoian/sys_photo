@@ -1,10 +1,11 @@
-import { Afacad } from "next/font/google";
+import { Afacad, Quicksand } from "next/font/google";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
 import "./globals.css";
 
-const font = Afacad({ subsets: ["latin"] });
+const font = Quicksand({ subsets: ["latin"] });
+// Afacad
 
 export const viewport = {
   // Will use the primary color of your theme to show a nice theme color in the URL bar of supported browsers
