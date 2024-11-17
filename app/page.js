@@ -15,6 +15,7 @@ import AboutUs from "@/components/AboutUs";
 import Features from "@/components/Features";
 import HowWeWork from "@/components/HowWeWork";
 import Testimonials11 from "@/components/Testimonials11";
+import HeroV2 from "@/components/HeroV2";
 
 export default function Page() {
   return (

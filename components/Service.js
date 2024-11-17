@@ -11,9 +11,13 @@ const Service = ({
   photos,
 }) => {
   return (
-    <section className={`${background ? "bg-base-200" : ""}`}>
-      <div className="max-w-[85%] mx-auto flex flex-col lg:flex-row gap-4 order-1 py-10">
-        <div className="w-full flex flex-col gap-6 justify-center lg:w-1/2  lg:text-left">
+    <section
+      className={`${
+        background ? "bg-slate-200" : ""
+      } max-w-[95%] rounded-3xl mx-auto`}
+    >
+      <div className="max-w-[85%] mx-auto flex flex-col lg:flex-row gap-20 order-1 py-10">
+        <div className="w-full flex flex-col gap-6 justify-center lg:w-1/2  lg:text-left lg:gap-12">
           <h2 className="text-5xl md:text-6xl font-bold">{title}</h2>
           <p className="text-lg">{subtitle}</p>
           <Link
