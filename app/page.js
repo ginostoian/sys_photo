@@ -16,6 +16,7 @@ import Features from "@/components/Features";
 import HowWeWork from "@/components/HowWeWork";
 import Testimonials11 from "@/components/Testimonials11";
 import HeroV2 from "@/components/HeroV2";
+import config from "@/config";
 
 export default function Page() {
   return (
@@ -24,7 +25,7 @@ export default function Page() {
         <Header />
       </Suspense>
       <main>
-        <Hero />
+        <Hero content={config.content.homepage.hero} />
         <ClientLogos />
         <ServiceList />
         <Testimonial />

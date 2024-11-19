@@ -4,13 +4,10 @@ import Image from "next/image";
 import TestimonialsAvatars from "./TestimonialsAvatars";
 // import config from "@/config";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
-const Hero = () => {
-  const images = [
-    "/images/wedding1.webp",
-    "/images/wedding2.webp",
-    "/images/wedding3.webp",
-  ];
+const Hero = ({ content }) => {
+  const images = content.images;
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -25,16 +22,13 @@ const Hero = () => {
     <section className="max-w-[95%] sm:max-w-[90%] mx-auto bg-slate-200 rounded-3xl mt-10 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-20 py-8 lg:py-20">
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center  lg:text-left lg:items-start">
         <h1 className="font-extrabold text-6xl lg:text-7xl tracking-tight md:-mb-4">
-          Sedinte foto profesionale, cu suflet.
+          {content.title}
         </h1>
         <p className="md:text-xl text-lg opacity-80 leading-relaxed">
-          Pozele ne permit sa pastram vii toate momentele speciale din viata
-          noastra. Noi suntem alaturi de tine si imortalizam nuntile,
-          aniversarile, botezele si toate celelalte momente care merita pastrate
-          cum ar fi maternitatea, craciunul etc.
+          {content.subtitle}
         </p>
         <button className="text-xl btn btn-primary btn-wide rounded-xl">
-          Hai sa vorbim
+          <Link href={content.ctaURL}>{content.ctaText}</Link>
         </button>
 
         <TestimonialsAvatars priority={true} />
