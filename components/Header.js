@@ -100,23 +100,23 @@ const Header = () => {
               role="button"
               className="link link-hover text-lg m-1"
             >
-              Servicii &#8615;
+              Servicii &#9735;
             </div>
             <ul
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
             >
               <li>
-                <a>Fotografie de nunta</a>
+                <Link href="/">Fotografie de nunta</Link>
               </li>
               <li>
-                <a>Fotografie corporate</a>
+                <Link href="/">Fotografie corporate</Link>
               </li>
               <li>
-                <a>Sedinte foto de sezon</a>
+                <Link href="/">Sedinte foto de sezon</Link>
               </li>
               <li>
-                <a>Fotografie de produs</a>
+                <Link href="/">Fotografie de produs</Link>
               </li>
             </ul>
           </div>
@@ -192,7 +192,7 @@ const Header = () => {
                     role="button"
                     className="link link-hover text-lg m-1"
                   >
-                    Servicii &#8615;
+                    Servicii &#9735;
                   </div>
                   <ul
                     tabIndex={0}
