@@ -17,8 +17,8 @@ const links = [
     label: "Preturi",
   },
   {
-    href: "/servicii",
-    label: "Servicii",
+    href: "/contact",
+    label: "Contact",
   },
   {
     href: "/despre-noi",
