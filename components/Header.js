@@ -100,7 +100,7 @@ const Header = () => {
               role="button"
               className="link link-hover text-lg m-1"
             >
-              Servicii
+              Servicii &#8615;
             </div>
             <ul
               tabIndex={0}
@@ -192,7 +192,7 @@ const Header = () => {
                     role="button"
                     className="link link-hover text-lg m-1"
                   >
-                    Servicii
+                    Servicii &#8615;
                   </div>
                   <ul
                     tabIndex={0}
