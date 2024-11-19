@@ -94,6 +94,32 @@ const Header = () => {
 
         {/* Your links on large screens */}
         <div className="hidden lg:flex lg:justify-center lg:gap-12 lg:items-center">
+          <div className="dropdown dropdown-hover">
+            <div
+              tabIndex={0}
+              role="button"
+              className="link link-hover text-lg m-1"
+            >
+              Servicii
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+            >
+              <li>
+                <a>Fotografie de nunta</a>
+              </li>
+              <li>
+                <a>Fotografie corporate</a>
+              </li>
+              <li>
+                <a>Sedinte foto de sezon</a>
+              </li>
+              <li>
+                <a>Fotografie de produs</a>
+              </li>
+            </ul>
+          </div>
           {links.map((link) => (
             <Link
               href={link.href}
@@ -160,6 +186,32 @@ const Header = () => {
           <div className="flow-root mt-6">
             <div className="py-4">
               <div className="flex flex-col gap-y-4 items-start">
+                <div className="dropdown dropdown-hover">
+                  <div
+                    tabIndex={0}
+                    role="button"
+                    className="link link-hover text-lg m-1"
+                  >
+                    Servicii
+                  </div>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+                  >
+                    <li>
+                      <a>Fotografie de nunta</a>
+                    </li>
+                    <li>
+                      <a>Fotografie corporate</a>
+                    </li>
+                    <li>
+                      <a>Sedinte foto de sezon</a>
+                    </li>
+                    <li>
+                      <a>Fotografie de produs</a>
+                    </li>
+                  </ul>
+                </div>
                 {links.map((link) => (
                   <Link
                     href={link.href}
