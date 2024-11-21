@@ -1,15 +1,9 @@
 import { Suspense } from "react";
 
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
-import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
-import ServiceList from "@/components/ServiceList";
-import PhotoMasonry from "@/components/PhotoMasonry";
-import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonials1";
 import AboutUs from "@/components/AboutUs";
 import Features from "@/components/Features";
@@ -25,11 +19,10 @@ export default function Page() {
         <Header />
       </Suspense>
       <main>
-        {/* <Hero content={config.content.homepage.hero} /> */}
         <HeroV2
-          title="Cumpara pachetul perfect"
-          titleHighlight="pentru tine"
-          subtitle="Vom fi alaturi de tine in cele mai importante momente"
+          title="Suntem aici pentru ati raspunde la"
+          titleHighlight=" orice intrebare"
+          subtitle="Vrem sa discutam pentru a raspunde tuturor intrebarilor tale"
         />
         <ClientLogos />
         <Testimonial />
@@ -37,9 +30,8 @@ export default function Page() {
         <HowWeWork />
         <AboutUs />
         <Testimonials11 />
-        <Pricing />
         <FAQ />
-        <CTA />
+        {/* <CTA /> */}
       </main>
       <Footer />
     </>

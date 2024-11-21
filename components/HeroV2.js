@@ -1,18 +1,15 @@
 import React from "react";
 
-const HeroV2 = () => {
+const HeroV2 = ({ title, titleHighlight, subtitle, imgURL }) => {
   return (
     <section className="max-w-[95%] sm:max-w-[85%] mx-auto">
       <div className="py-10 px-4 sm:pl-6  sm:pr-6 lg:pl-8 lg:pr-8">
         <div className="text-center max-w-3xl m-auto text-gray-800">
           <h1 className="text-5xl font-bold">
-            Cumpara pachetul perfect{" "}
-            <span className="text-blue-600">pentru tine</span>
+            {title} <span className="text-blue-600">{titleHighlight}</span>
           </h1>
 
-          <p className="text-lg mt-3">
-            Vom fi alaturi de tine in cele mai importante momente
-          </p>
+          <p className="text-lg mt-3">{subtitle}</p>
         </div>
 
         <div className="relative max-w-5xl mt-10 mx-auto">
