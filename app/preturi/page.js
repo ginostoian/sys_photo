@@ -25,16 +25,17 @@ export default function Page() {
         <Header />
       </Suspense>
       <main>
-        <Hero content={config.content.aboutUs.hero} />
+        {/* <Hero content={config.content.homepage.hero} /> */}
+        <HeroV2 />
         <ClientLogos />
-        <AboutUs />
         <Testimonial />
         <Features />
         <HowWeWork />
+        <AboutUs />
         <Testimonials11 />
-        {/* <Pricing /> */}
+        <Pricing />
         <FAQ />
-        {/* <CTA /> */}
+        <CTA />
       </main>
       <Footer />
     </>

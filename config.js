@@ -28,7 +28,7 @@ const config = {
         title: "Sys Photo & Design, pasiune inainte de toate",
         subtitle:
           "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
-        ctaText: "Hai sa vorbim",
+        ctaText: "Suna acum",
         ctaURL: "/contact",
         images: [
           "/images/wedding1.webp",
