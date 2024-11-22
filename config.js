@@ -37,6 +37,92 @@ const config = {
         ],
       },
     },
+    contact: {
+      hero: {
+        title: "Sedinte foto profesionale, cu suflet.",
+        subtitle:
+          "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
+        ctaText: "Hai sa vorbim",
+        ctaURL: "/contact",
+        images: [
+          "/images/wedding1.webp",
+          "/images/wedding2.webp",
+          "/images/wedding3.webp",
+        ],
+      },
+    },
+    servicii: {
+      hero: {
+        title: "Sedinte foto profesionale, cu suflet.",
+        subtitle:
+          "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
+        ctaText: "Hai sa vorbim",
+        ctaURL: "/contact",
+        images: [
+          "/images/wedding1.webp",
+          "/images/wedding2.webp",
+          "/images/wedding3.webp",
+        ],
+      },
+    },
+    fotografieProdus: {
+      hero: {
+        title: "Atrage clienti cu fotografii premium",
+        subtitle:
+          "Vrei mai multe vânzări? Noi îți punem produsele în cea mai bună lumină! Fotografiile noastre profesionale atrag clienți, cresc încrederea în brandul tău și îți oferă avantajul de care ai nevoie.",
+        ctaText: "Creste-ti vanzarile!",
+        ctaURL: "/contact",
+        images: [
+          "/images/product/product1.webp",
+          "/images/product/product2.webp",
+          "/images/product/product3.webp",
+          "/images/product/product4.webp",
+          "/images/product/product5.webp",
+        ],
+      },
+    },
+    fotografieNunta: {
+      hero: {
+        title: "Sedinte foto profesionale, cu suflet.",
+        subtitle:
+          "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
+        ctaText: "Hai sa vorbim",
+        ctaURL: "/contact",
+        images: [
+          "/images/wedding1.webp",
+          "/images/wedding2.webp",
+          "/images/wedding3.webp",
+        ],
+      },
+    },
+    fotografieCorporate: {
+      hero: {
+        title: "Sedinte foto profesionale, cu suflet.",
+        subtitle:
+          "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
+        ctaText: "Hai sa vorbim",
+        ctaURL: "/contact",
+        images: [
+          "/images/wedding1.webp",
+          "/images/wedding2.webp",
+          "/images/wedding3.webp",
+        ],
+      },
+    },
+    sedintaFoto: {
+      hero: {
+        title: "Sedinte foto profesionale, cu suflet.",
+        subtitle:
+          "Pozele ne permit sa pastram vii toate momentele speciale din viata noastra. Noi suntem alaturi de tine si imortalizam nuntile, aniversarile, botezele si toate celelalte momente care merita pastrate cum ar fi maternitatea, craciunul etc.",
+        ctaText: "Hai sa vorbim",
+        ctaURL: "/contact",
+        images: [
+          "/images/wedding1.webp",
+          "/images/wedding2.webp",
+          "/images/wedding3.webp",
+        ],
+      },
+    },
   },
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.

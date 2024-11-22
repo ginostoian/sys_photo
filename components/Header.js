@@ -111,16 +111,22 @@ const Header = () => {
               className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
             >
               <li>
-                <Link href="/">Fotografie de nunta</Link>
+                <Link href="/servicii/fotografie-de-nunta">
+                  Fotografie de nunta
+                </Link>
               </li>
               <li>
-                <Link href="/">Fotografie corporate</Link>
+                <Link href="/servicii/fotografie-corporate">
+                  Fotografie corporate
+                </Link>
               </li>
               <li>
-                <Link href="/">Sedinte foto de sezon</Link>
+                <Link href="/servicii/sedinte-foto">Sedinte foto de sezon</Link>
               </li>
               <li>
-                <Link href="/">Fotografie de produs</Link>
+                <Link href="/servicii/fotografie-de-produs">
+                  Fotografie de produs
+                </Link>
               </li>
             </ul>
           </div>

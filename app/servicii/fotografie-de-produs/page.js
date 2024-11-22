@@ -7,9 +7,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
-import ServiceList from "@/components/ServiceList";
 import PhotoMasonry from "@/components/PhotoMasonry";
-import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonials1";
 import AboutUs from "@/components/AboutUs";
 import Features from "@/components/Features";
@@ -24,15 +22,14 @@ export default function Page() {
         <Header />
       </Suspense>
       <main>
-        <Hero content={config.content.homepage.hero} />
+        <Hero content={config.content.fotografieProdus.hero} />
         <ClientLogos />
-        <ServiceList />
-        <Testimonial />
         <Features />
         <HowWeWork />
+        <Testimonial />
         <AboutUs />
         <Testimonials11 />
-        {/* <Pricing /> */}
+        <Pricing />
         <FAQ />
         {/* <CTA /> */}
       </main>
