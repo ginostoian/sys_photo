@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HowWeWork = () => {
   return (
-    <div className="max-w-[95%] mx-auto">
+    <section className="max-w-[95%] mx-auto mb-20">
       {/* <!-- Approach --> */}
       <div className="bg-neutral-900 rounded-3xl">
         {/* <!-- Approach --> */}
@@ -183,7 +183,7 @@ const HowWeWork = () => {
         </div>
       </div>
       {/* <!-- End Approach --> */}
-    </div>
+    </section>
   );
 };
 

@@ -61,7 +61,7 @@ const ServiceList = () => {
   ];
   return (
     <section className="py-10">
-      <h2 className="text-4xl font-semibold text-center text-gray-800 mb-6">
+      <h2 className="text-5xl font-semibold text-center text-gray-800 mb-16">
         Serviciile noastre
       </h2>
       {services.map((service, i) => {

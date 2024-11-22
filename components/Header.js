@@ -24,6 +24,10 @@ const links = [
     href: "/despre-noi",
     label: "Despre noi",
   },
+  {
+    href: "/blog",
+    label: "Blog",
+  },
 ];
 
 // const cta = <ButtonSignin extraStyle="btn-primary rounded-xl" />;
